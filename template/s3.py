@@ -6,10 +6,8 @@ url = 'https://storage.googleapis.com'
 response = requests.get(url, verify=False)
 r = requests.get(url, verify='/Users/akshayshrivastava/.mac-ca-roots')
 
-print(r)
 def create_bucket(bucket_name):
     """Creates a new bucket."""
-    # bucket_name = "your-new-bucket-name"
 
     storage_client = storage.Client()
 
