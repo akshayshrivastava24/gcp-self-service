@@ -1,0 +1,5 @@
+template: vm
+machine_type: e2-medium
+instance_name: my-vm-2
+machine_type: e2-medium
+source_image:  projects/debian-cloud/global/images/debian-12-bookworm-v20240617

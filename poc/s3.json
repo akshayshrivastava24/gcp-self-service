@@ -1,0 +1,10 @@
+{
+  "name": "testabc12321219",
+  "location": "US",
+  "storageClass": "NEARLINE",
+  "iamConfiguration": {
+    "uniformBucketLevelAccess": {
+      "enabled": true
+    },
+  }
+}
